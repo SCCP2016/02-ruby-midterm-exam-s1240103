@@ -4,4 +4,5 @@ puts x
 puts x.size
 puts x.reverse
 puts x.upcase
-puts x.slice!(1).chop
+x.slice!(0)
+puts x.chop
