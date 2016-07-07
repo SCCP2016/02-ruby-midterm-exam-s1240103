@@ -38,8 +38,8 @@ Bool
 # 型: 具体例
 Fixnum: 1
 Bignum: 9999999999999999999999999
-Float:3.6
-String:"ruby"
+Float: 3.6
+String: "ruby"
 ```
 
 ## 3. 適切なプログラムを書け
@@ -68,6 +68,21 @@ String:"ruby"
 # 出力例2
 # 1000
 
+age, sex = STDIN.gets.split.map(&:to_i)
+
+if age<=12 then
+  price=700
+elsif age<=18 then
+  price=100
+else
+  price=1200
+end
+
+if sex==1 then
+  price-=200
+end
+
+puts price
 
 ```
 

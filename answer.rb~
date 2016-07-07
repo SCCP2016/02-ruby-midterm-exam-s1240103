@@ -1,0 +1,5 @@
+x, y = STDIN.gets.split.map(&:to_i)
+
+if x<=12 then
+  
+elsif
