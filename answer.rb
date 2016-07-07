@@ -1,7 +1,7 @@
-array = STDIN.gets.split.map(&:to_s)
+x = gets.chop
 
-puts array
-puts array.count
-puts array.reverse
-puts array.upcase
-puts array.slice!(1).chop
+puts x
+puts x.size
+puts x.reverse
+puts x.upcase
+puts x.slice!(1).chop

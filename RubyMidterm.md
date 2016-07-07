@@ -108,6 +108,12 @@ AB5?CD
 b5?c
 AB?Cd
 ```
+x = gets.chop
+
+puts x
+puts x.size
+puts x.reverse
+puts x.upcase
 
 ## 5. 適切なプログラムを書け
 
